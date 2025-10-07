@@ -5,8 +5,9 @@ public class Test {
     System.out.pringln("a = " + a);
     System.out.println("b = " + b);
 
+    int temp = b;
     b = a;
-    a = b;
+    a = temp;
 
     System.out.println("a = " + a);
     System.out.println("b = " + b);
